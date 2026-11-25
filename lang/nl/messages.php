@@ -1,0 +1,57 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'title' => 'Contact',
+    'heading' => 'Stuur ons een bericht',
+    'intro' => 'Schrijf je vraag of idee hieronder. We antwoorden op het e-mailadres dat je invult.',
+    'form' => [
+        'subject' => 'Onderwerp',
+        'subject_placeholder' => 'Kies een onderwerp',
+        'name' => 'Je naam',
+        'optional' => '(mag leeg)',
+        'email' => 'Je e-mailadres',
+        'email_hint' => 'We gebruiken het alleen om je te antwoorden.',
+        'body' => 'Bericht',
+        'send' => 'Verstuur',
+        'website' => 'Laat dit veld leeg',
+        'name_invalid' => 'Je naam mag hooguit 100 tekens zijn.',
+        'email_invalid' => 'Dit e-mailadres klopt niet.',
+        'subject_missing' => 'Kies een onderwerp.',
+        'body_missing' => 'Schrijf iets meer over wat je wilt vragen.',
+        'body_too_long' => 'Je bericht is te lang. Houd het onder de 5000 tekens.',
+        'too_many_links' => 'Er staan te veel links in je bericht. Haal er een paar weg.',
+        'throttled' => 'Dat waren veel berichten in korte tijd. Probeer het over een uur nog eens.',
+    ],
+    'sent' => [
+        'heading' => 'Verstuurd',
+        'body' => 'Bedankt. We lezen elk bericht en antwoorden per mail.',
+    ],
+    'mail' => [
+        'subject' => '[:site] Nieuw bericht: :subject',
+        'intro' => 'Iemand stuurde een bericht via het contactformulier. Onderwerp: :subject.',
+        'context' => 'Context: :context.',
+        'read' => 'Lees en beantwoord het hier:',
+    ],
+    'admin' => [
+        'nav' => 'Berichten',
+        'heading' => 'Contactberichten',
+        'open' => '{0} Geen open berichten.|{1} Eén open bericht.|[2,*] :count open berichten.',
+        'retention' => '{1} Berichten verdwijnen na een dag.|[2,*] Berichten verdwijnen na :days dagen.',
+        'empty' => 'Geen berichten.',
+        'received' => 'Ontvangen',
+        'from' => 'Van',
+        'open_message' => 'Openen',
+        'back' => '← Alle berichten',
+        'no_name' => 'Geen naam',
+        'signed_in_as' => 'ingelogd als :name',
+        'handled' => 'Afgehandeld',
+        'reply' => 'Beantwoorden per mail',
+        'reply_subject' => 'Re: :subject',
+        'mark_handled' => 'Afgehandeld',
+        'mark_open' => 'Weer open zetten',
+        'delete' => 'Verwijderen',
+        'confirm_delete' => 'Dit bericht verwijderen?',
+    ],
+];

@@ -1,0 +1,22 @@
+{
+    "name": "kopling/contact",
+    "description": "A contact form for Kopling: visitors send a message without a mail client, admins read it in the admin panel.",
+    "type": "kopling-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel@klabbers.email"
+        }
+    ],
+    "require": {
+    },
+    "suggest": {
+        "kopling/admin": "Lists the messages and holds the form's settings."
+    },
+    "autoload": {
+        "psr-4": {
+            "Kopling\\Contact\\": "src/"
+        }
+    }
+}

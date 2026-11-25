@@ -1,0 +1,57 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'title' => 'Contact',
+    'heading' => 'Send us a message',
+    'intro' => 'Write your question or idea below. We reply to the email address you fill in.',
+    'form' => [
+        'subject' => 'Subject',
+        'subject_placeholder' => 'Pick a subject',
+        'name' => 'Your name',
+        'optional' => '(optional)',
+        'email' => 'Your email address',
+        'email_hint' => 'We only use it to reply.',
+        'body' => 'Message',
+        'send' => 'Send',
+        'website' => 'Leave this field empty',
+        'name_invalid' => 'Keep your name under 100 characters.',
+        'email_invalid' => 'This email address is not right.',
+        'subject_missing' => 'Pick a subject.',
+        'body_missing' => 'Write a bit more about what you want to ask.',
+        'body_too_long' => 'This message is too long. Keep it under 5000 characters.',
+        'too_many_links' => 'This message has too many links. Please remove a few.',
+        'throttled' => 'That was a lot of messages in a short time. Try again in an hour.',
+    ],
+    'sent' => [
+        'heading' => 'Sent',
+        'body' => 'Thank you. We read every message and reply by email.',
+    ],
+    'mail' => [
+        'subject' => '[:site] New message: :subject',
+        'intro' => 'Someone sent a message through the contact form. Subject: :subject.',
+        'context' => 'Context: :context.',
+        'read' => 'Read and answer it here:',
+    ],
+    'admin' => [
+        'nav' => 'Messages',
+        'heading' => 'Contact messages',
+        'open' => '{0} No open messages.|{1} One open message.|[2,*] :count open messages.',
+        'retention' => '{1} Messages are deleted after one day.|[2,*] Messages are deleted after :days days.',
+        'empty' => 'No messages.',
+        'received' => 'Received',
+        'from' => 'From',
+        'open_message' => 'Open',
+        'back' => '← All messages',
+        'no_name' => 'No name',
+        'signed_in_as' => 'signed in as :name',
+        'handled' => 'Handled',
+        'reply' => 'Reply by email',
+        'reply_subject' => 'Re: :subject',
+        'mark_handled' => 'Mark as handled',
+        'mark_open' => 'Mark as open',
+        'delete' => 'Delete',
+        'confirm_delete' => 'Delete this message?',
+    ],
+];
