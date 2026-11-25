@@ -105,7 +105,7 @@ class ContactController
         $request->session()->put(self::SESSION_KEY, now()->getTimestamp());
 
         if ($request->hasHeader('HX-Request')) {
-            return view('kopling-contact::partials.sent');
+            return view('kopling-contact::partials.sent', ['focus' => true]);
         }
 
         return redirect()->route('kopling-contact::contact/show');
